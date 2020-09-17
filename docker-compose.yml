@@ -4,7 +4,7 @@ services:
   db:
     image: mysql:8.0.20
     environment:
-      MYSQL_DATABASE: 'pablo'
+      MYSQL_DATABASE: 'altran'
       MYSQL_ROOT_PASSWORD: '1234'
     ports:
       - '3306:3306'

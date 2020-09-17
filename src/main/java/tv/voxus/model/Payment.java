@@ -16,8 +16,8 @@ import java.util.Date;
 public class Payment {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
-    @Column(name = "id", nullable = false, length = 3)
+    @GeneratedValue(strategy = GenerationType.AUTO, generator = "paymentSequence")
+    @Column(name = "id", length = 3)
     private Integer id;
 
     @Size(min = 5, max = 100, message = "Title must be between 5 and 100 characters")

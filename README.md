@@ -6,14 +6,14 @@ payments directly through the platform.
 
 1. Create the function that allows users to insert new payments at the platform.
 The payment must contain a title, a value, a date, an external tax and comments.
-A few rules must be applied before the record get inserted into the database:
-  - Title must have between 5 and 100 characters;
-  - Value must be a decimal value. Any non numeric value must not be
-  accepted;
-  - Date must be on the pattern Y-m-d (year-month-day);
-  - External tax is a fixed value of 5% of the value of the payment and must be
-  automatically calculated by your code;
-  - The observations box can or cannot be filled by the user;
+A few rules must be applied before the record get inserted into the database:  
+&nbsp;&nbsp;&nbsp;&nbsp; - Title must have between 5 and 100 characters;  
+&nbsp;&nbsp;&nbsp;&nbsp; - Value must be a decimal value. Any non numeric value must not be
+accepted;  
+&nbsp;&nbsp;&nbsp;&nbsp; - Date must be on the pattern Y-m-d (year-month-day);  
+&nbsp;&nbsp;&nbsp;&nbsp; - External tax is a fixed value of 5% of the value of the payment and must be
+automatically calculated by your code;  
+&nbsp;&nbsp;&nbsp;&nbsp; - The observations box can or cannot be filled by the user;  
 
 2. Create the function to list all the payments through the platform. All payment
 posting data should be listed, displaying payment posting id, title, value, date,
